@@ -418,7 +418,7 @@ with tab2:
 
         with col2:
             # Team pressure map
-            st.subheader(f"Team Pressure Map for {selected_player}")
+            st.subheader(f"Player Pressure Map for {selected_player}")
 
             # Create the pitch
             pitch = Pitch(pitch_type='statsbomb', line_color='#e0e0e0', line_zorder=2, pitch_color='#2e2e2e')
@@ -450,7 +450,7 @@ with tab2:
 
         # Model Results Section
         st.subheader("Model Results")
-        st.write("The selected team has undergone analysis using a machine learning model. Here are the key visualizations.")
+        st.write("The selected player has undergone analysis using a machine learning model. Here are the key visualizations.")
 
         # Define columns for weights
         weight_columns = ['Foul', 'ball_recovery', 'moved_closer_to_goal', 'moved_further_from_goal', 'shot_conceded']
